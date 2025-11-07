@@ -1,0 +1,455 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+.nav1
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo
+{
+    display: flex;
+}
+.redlogo
+{
+    height: 20px;
+    width: 20px;
+    background-color: #ff0000;
+    border-radius: 50%;
+}
+.bluelogo
+{
+    height: 20px;
+    width: 20px;
+    background-color: #2f00ff;
+    border-radius: 50%;
+}
+.redlogo:hover {
+  background-color: rgb(0, 255, 21);
+  color: white;
+  transition: 50ms;
+}
+.bluelogo:hover {
+  background-color: rgb(229, 255, 0);
+  color: white;
+  transition: 50ms;
+}
+.navline
+{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3)
+}
+.herodiv
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff0909;
+}
+.btnget
+{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(44, 141, 252);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.btndiv1
+{
+    padding-right: 40px;
+}
+.btnget:hover
+{
+    background-color: #2f00ff;
+} 
+
+.price
+{
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5); 
+    display: block; 
+    height: 120px; 
+    width: 470px; 
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.price:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.jumbtn
+{
+    height: 30px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.menuitem:hover
+{
+    text-decoration: underline;
+}
+.jumbtn:hover
+{
+    background-color: #979797;
+    color: white;
+}
+.we
+{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.start
+{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2244db;
+}
+
+.company
+{
+    font-size: 70px;
+}
+
+.perpose
+{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.when
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 25px;
+    color: #6d6d6d;
+}
+
+.icon1
+{
+    text-align: center; font-size: 50px;
+}
+.hearder1
+{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para1
+{
+    text-align: center;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #686868;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bebtn
+{
+    display: flex; 
+    justify-content: center; 
+    padding-top: 50px;
+}
+.bebtn1
+{
+    width: 180px; 
+    padding:10px; 
+    border-radius: 10px; 
+    background-color: rgb(95, 106, 255); 
+    border: none; color: #ffffff;
+    box-shadow: 10px 10px 15px #4d94ff36;
+}
+.bebtn1:hover
+{
+    background-color: #1270c7;
+}
+.sc
+{
+    color: #ff6600;
+    font-size: 35px;
+}
+
+.str{
+    font-size: 60px;
+}
+
+.picdiv1
+{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 30px;
+}
+
+.takepara
+{
+    font-size: 20px;
+    color: #474747;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.explore
+{
+    font-size: 25px;
+    color: #1270c7;
+
+}
+.moni1
+{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;  
+}
+.how
+{
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 45px;
+}
+
+.achive
+{
+    display: flex; 
+    padding-top: 70px; 
+    padding-left: 30px;
+    background-color: rgb(224, 224, 224);
+}
+
+.sub2{
+    background-color: rgb(60, 60, 182); 
+    width: 100px; 
+    height: 55px; 
+    border: none; 
+    border-radius: 10px; 
+    font-size: 25px;
+    color: white;
+    box-shadow: 5px 5px 5px #547ef04b;
+}
+
+.sub2:hover{
+    background-color: rgb(45, 45, 117); 
+}
+
+.div3
+{
+    width: 50%;
+    padding-left: 30px;
+}
+
+.pricing
+{
+    padding-top: 30px; 
+    text-align: center;
+}
+
+.pdiv1{
+    display: flex; 
+    justify-content: space-between; 
+    margin: 50px;
+}
+
+.readyp
+{
+    text-align: center;
+    font-size: 25px;
+}
+.strbtn3
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    color: #ffffff;
+    background-color: #1b58ff;
+    border-radius: 10px;
+}
+
+.futurediv
+{
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 30px;
+}
+
+.futurediv1
+{
+    width: 50%; 
+    padding: 30px;
+
+}
+
+.fhead
+{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.pu1
+{
+    font-size: 20px;
+    color: #474747;
+}
+
+.getbtn4
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    background-color: #1b58ff;
+    color: white;
+    border-radius: 20px;
+}
+
+.getbtn4:hover
+{
+    background-color: #004483;
+}
+.fourdiv0
+{
+    width: 25%; 
+    display: flex;
+
+}
+
+.strbtn3:hover
+{
+    background-color: #2244db;
+}
+
+.fourdiv1
+{
+    width: 100%; 
+    background-color: rgb(51, 255, 0);
+    align-items: center;
+    justify-content: center;
+}
+.fourdiv11
+{
+    height: 200px;
+    border: 1px rgb(0, 0, 0);
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourdiv11:hover
+{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.webh
+{
+    font-size: 30px;
+}
+
+.footerdiv
+{
+    width: 33%; 
+    background-color: rgb(0, 0, 0);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footersec
+{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.footersecmain
+{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(196, 196, 196);
+}
+
+.footersec:hover
+{
+    text-decoration: underline;
+}
+
+.submail
+{
+    background-color: rgb(2, 90, 255); 
+    display: block; 
+    width: 620px; 
+    border-radius: 10px 0px 0px 10px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.submail1
+{
+    background-color: rgb(37, 71, 219); 
+    display: block; 
+    width: 620px; 
+    border-radius: 0px 10px 10px 0px;
+    padding: auto;
+    text-align: center;
+    padding-top: 100px;
+    gap: 0px;
+}
+
+.subpara
+{
+    font-size: 18px;
+    color: white;
+}
+.subhead
+{
+    padding-left: 40px;
+    font-size: 50px;
+    color: white;
+}
+
+.subpara
+{
+    padding-left: 40px;
+}
+
+.submitbtnl
+{
+    padding: 18px 30px 18px 30px;
+    color: white;
+    background-color: rgb(48, 199, 34);
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+.lastemail
+{
+    padding: 17px 30px 17px 70px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+}
